@@ -1,0 +1,47 @@
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Build output
+# =========================
+dist/
+
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Tricox local config (IMPORTANT)
+# =========================
+.tricox/
+config.json
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Temporary / Cache
+# =========================
+.cache/
+.tmp/
+temp/
