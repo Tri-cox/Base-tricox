@@ -8,9 +8,13 @@
   "bin": {
     "tricox": "dist/index.js"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node src/index.ts"
+    "dev": "ts-node src/index.ts",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "appwrite": "^21.5.0",
